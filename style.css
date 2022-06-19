@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+#myInput {
+    background-image: url('images/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 70%;
+    font-size: 14px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#myTable {
+    border-collapse: collapse;
+    width: 70%;
+    border: 1px solid #ddd;
+    font-size: 14px;            
+}
+
+    #myTable th, #myTable td {
+        text-align: left;
+        padding: 5px;
+       
+    }
+
+    #myTable tr {
+        border-bottom: 1px solid #ddd;
+    }
+
+        #myTable tr.header, #myTable tr:hover {
+            background-color: #f1f1f1;
+        }
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+.auto-style1 {
+    width: 10%;
+}
+.auto-style2 {
+    width: 5%;
+}
+
+.button {
+    background-color: #a8e5ff;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    border:none;
+  }
+  .svg-demo {
+              text-align: center;
+              font-weight: bold;
+              font-size: 20px;
+          }
+           .svg-demo:after {
+              display: inline-flex;
+              content: '';
+              background-image: url('/images/pdf.svg');
+              background-size: 30px 30px;
+              height: 30px;
+              width: 30px;
+          }
