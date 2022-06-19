@@ -62,7 +62,7 @@ a.disabled {
            .svg-demo:after {
               display: inline-flex;
               content: '';
-              background-image: url('/images/pdf.svg');
+              background-image: url('pdf.svg');
               background-size: 30px 30px;
               height: 30px;
               width: 30px;
