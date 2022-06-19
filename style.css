@@ -3,7 +3,7 @@
 }
 
 #myInput {
-    background-image: url('/searchicon.png');
+    background-image: url('https://raw.githubusercontent.com/ekchokho/makaut-update/main/searchicon.png');
     background-position: 10px 10px;
     background-repeat: no-repeat;
     width: 70%;
@@ -62,7 +62,7 @@ a.disabled {
            .svg-demo:after {
               display: inline-flex;
               content: '';
-              background-image: url('/pdf.svg');
+              background-image: url('https://raw.githubusercontent.com/ekchokho/makaut-update/main/pdf.svg');
               background-size: 30px 30px;
               height: 30px;
               width: 30px;
